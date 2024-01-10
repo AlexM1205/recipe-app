@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  min-height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  background-image: url("/images/bgg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  
+}
+h1{
+  margin: 0;
+  font-size: 3.5rem;
+}
+/* -----------APP JS BLUR EFFECT BG ---------*/
+.glassEffect{
+  background: rgba(255, 255, 255, 0.192);
+  padding: 2.5rem;
+  backdrop-filter: blur(10px);
+  height: 750px;
+  width: 900px;
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+}
+
+/* ----------RECIPE LIST JS--------- */
+ol li{
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: .2rem 0;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+li button{
+  margin-left: 1rem;
+  background-color: transparent;
+  padding: 0 1rem;
+  border: 2px solid #452;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+/* ----------RECIPE DETAILS JS---------- */
+.recipeDetails h2{
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+/* ----------RECIPE FORM JS -------------- */
+
+.formFlex{
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.formFlex label{
+  margin: .5rem 0;
+}
+.formFlex input{
+  outline: none;
+  border: 2px solid #452;
+  font-size: 1rem;
+  margin: 0 .6rem;
+  padding: .2rem 0 .2rem .4rem;
+}
+.mod input{
+  margin-left: 1.4rem;
+}
+.formFlex button{
+  background-color: transparent;
+  padding: .2rem 1rem;
+  border: 2px solid #452;
+  font-size: 1rem;
+}
+.formFlex button:last-of-type{
+  margin: .2rem 0;
+}
